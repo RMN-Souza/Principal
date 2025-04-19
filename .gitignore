@@ -1,0 +1,24 @@
+# Ignorar arquivos de log
+*.log
+
+# Ignorar pastas de build
+/build/
+/bin/
+/dist/
+
+# Ignorar arquivos de sistema específicos de SO
+.DS_Store  # Para sistemas macOS
+Thumbs.db  # Para sistemas Windows
+
+# Ignorar arquivos temporários do editor
+.vscode/
+.idea/
+
+# Ignorar dependências instaladas
+node_modules/
+vendor/
+
+# Ignorar arquivos de configuração do Python
+*.pyc
+*.pyo
+__pycache__/
